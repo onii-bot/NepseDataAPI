@@ -26,5 +26,6 @@ def index():
     return get_data()
 
 
-app.run()
+if __name__ == "__main__":
+    app.run(debug=False, port=8080)
 
