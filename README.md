@@ -15,6 +15,27 @@ Object has two keys
 Simple just make a GET request to https://nepsedataapi.herokuapp.com/
 
 No headers or any keys is required.
+
+#### Get all items
+
+```http
+  GET /
+```
+
+| Type     | Description                |
+| :------- | :------------------------- |
+| `list  ` | Returns list of object but only ticker and price |
+
+#### Get item
+
+```http
+  GET /all
+```
+
+| Type     | Description                       |
+| :------- | :-------------------------------- |
+| `list  ` | Returns list of object but has more infos |
+
 ## FAQ
 
 #### Where does this app gets data from?
